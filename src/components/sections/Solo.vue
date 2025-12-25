@@ -32,7 +32,7 @@ const getVideoId = (url) => {
 			He has released on a number of labels and worked with a number of different bands, artists, and projects.
 			<br>
 			<br>
-			<a href="/cv/Eilbacher CV 24.pdf" target="_blank" style="font-size: 2.4em;"> CV </a>
+			<a href="/cv/Eilbacher CV 25.pdf" target="_blank" style="font-size: 2.4em;"> CV </a>
 			
 		</p>
 		<br>

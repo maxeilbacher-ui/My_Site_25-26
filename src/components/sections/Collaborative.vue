@@ -162,7 +162,8 @@ const toggleSection = (section) => {
             <!-- end of KA page -->
 
             <!---start of Jules page-->
-      <div class="toggle" @click="toggleSection('collaborative-Jules')">
+            <!-- 
+      <<div class="toggle" @click="toggleSection('collaborative-Jules')">
           <span>Eilbacher</span>
           <span>/</span>
           <span>Reidy</span>
@@ -173,17 +174,14 @@ const toggleSection = (section) => {
            Here is a recording of them performing their duo at the Aachen Kunstverein in 2024.
             </p>
           
-          <!--    <div class="text" style="text-align: center;">
-            <div style="margin-bottom: 1.1px;">Reidy Eilbacher Live 2024</div>
-            <audio src=/audio/JulesMAxAAKMP3.mp3 controls></audio>
-          </div>
+         
           
         </template> -->
 
             <!-- end of Jules page -->
 
             <!---start of OMA page-->
-      <!-- <div class="toggle" @click="toggleSection('collaborative-Editions OMA')">
+      <div class="toggle" @click="toggleSection('collaborative-Editions OMA')">
           <span>O</span>
           <span>/</span>
           <span>M</span>
@@ -194,6 +192,24 @@ const toggleSection = (section) => {
           <p class="text">
             OMA is a platform/publisher for all things Max, Owen Gartner and Andrew Bernstein related things.
             Launched in 2025, OMAE will be publishing records, scores, files, cds and more. 
+            <br>
+
+            <br>
+            Our humble website can be found  
+            <a href="https://omaeditions.com/" 
+               target="_blank"
+               style="color:white;text-decoration:underline;" 
+             >
+           here</a>.
+           <br>
+
+           <br>
+           Our bandcamp is 
+            <a href="https://omaeditions.bandcamp.com/" 
+               target="_blank"
+               style="color:white;text-decoration:underline;" 
+             >
+           here</a>.
           </p>
           
           -->
@@ -210,7 +226,12 @@ const toggleSection = (section) => {
         </div>
         <template v-if="openSections.includes('collaborative-HL DB')">
           <p class="text">
-            Anorld Dreyblatt and Horse Lords have been working together since 2022. They performed their first live show in June of 2024. They have
+            Anorld Dreyblatt and Horse Lords have been working together since 2022. They performed their first live show in June of 2024. Have played a few times live and are looking forward to doing it more in the future. Their album was released by RVNG FRKWYS, the music can be heard and purchased 
+            <a href="https://horselords.bandcamp.com/album/frkwys-vol-18-extended-field" 
+               target="_blank"
+               style="color:white;text-decoration:underline;" 
+             >
+           here</a>.
            slated for release in 2025. Max plays bass and electronics in this configuration.
           </p>
           <div class="gallery" style="max-width: 90%; margin: 0 auto;">
@@ -283,7 +304,7 @@ const toggleSection = (section) => {
         </div>
         <template v-if="openSections.includes('collaborative-birdsey')">
           <p class="text">
-            Birdsey and Eilbacher have been collaborating since 2018. 
+            Birdsey and Eilbacher have been collaborating since 2018.
             <br>
             <br>
             "A bell rings and we see a bell. Whether its chime seeped from a speaker or floated through an open window, that bell is now in front of us. With each strike, its resonance, symbolism and physicality impacts us before we've even perceived these sounds as "music". To our ears, this is not immediately an instrument — it's a bell. On Bell Formations, arriving on vinyl this spring through Ryley Walker's Husky Pants label, sound artists Max Eilbacher (of Horse Lords) and Henry Birdsey never let you lose sight of this singular instrument, even as they turn it inside out.
@@ -295,7 +316,13 @@ const toggleSection = (section) => {
             For all of Bell Formation's dense processing, Eilbacher and Birdsey push us infinitely closer to the instrument with every strike. Our understanding of these sounds grows more intimate, even as the sources become completely transmuted. Far beyond melting, it's as if these bells have sublimed entirely, each ring unleashing a cloud of copper and tin. For both its careful sonic unraveling of such a powerful, seemingly unchanging instrument and the inspiring musical conversation at its core, Bell Formations stand as a thrilling debut collaboration and one of the most unique experimental recordings of this year." - Miles Bowie 2022
           </p>
           <br>
-          <br>
+          <div style="text-align: center;">
+             <a href="https://henrybirdsey.bandcamp.com/album/bell-formations"
+                target="_blank" 
+                style="font-size: 1em; color: #a0a0a0;">
+                Listen to the Music
+             </a>
+           </div>
          
           <br>
           <div style="text-align: center;">
@@ -316,6 +343,7 @@ const toggleSection = (section) => {
       
 
              <!---start of BFME page-->
+             <!--
       <div class="toggle" @click="toggleSection('collaborative-BFME')">
           <span>Eilbacher</span>
           <span>/</span>
@@ -333,6 +361,7 @@ const toggleSection = (section) => {
           
 
         </template>
+      -->
             <!-- end of BFME page -->
 
         

@@ -106,18 +106,24 @@ const shuffledSEContent = computed(() =>
         }"
       />
     </template>
+    <br>
 
-    <!-- VIDEO -->
-    <div class="toggle" @click="toggleSection('video')">VW</div>
-    <template v-if="openSections.includes('video')">
-      <Video :content="videos.video" />
-    </template>
-
-    <!-- GENERATIVE -->
+  <!-- GENERATIVE -->
     <div class="toggle" @click="toggleSection('generative')">Generative</div>
     <template v-if="openSections.includes('generative')">
       <Generative />
     </template>
+
+    <br>
+
+
+    <!-- VIDEO --> 
+    <div class="toggle" @click="toggleSection('video')" style="color: black; opacity: 0.25;">VW (2010-2018)</div>
+    <template v-if="openSections.includes('video')">
+      <Video :content="videos.video" />
+    </template>
+
+  
     
   </div>
   <!-- container -->

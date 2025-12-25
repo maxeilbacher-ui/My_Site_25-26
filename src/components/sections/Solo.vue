@@ -28,11 +28,27 @@ const getVideoId = (url) => {
 			is the practical enactment of such a leap.
 			<br>
 			<br>
-			He has been releasing records, touring, making and presenting work all across Europe, North America, and Japan since 2010.
+			He has been presenting sounds, releasing recordings of sound and music, touring, and generally making and presenting different types of sound related work all across Europe, North America, Canada, The People's Republic of China, Korea and Japan.
 			He has released on a number of labels and worked with a number of different bands, artists, and projects.
 			<br>
 			<br>
-			<a href="/cv/Eilbacher CV 25.pdf" target="_blank" style="font-size: 2.4em;"> CV </a>
+			
+			<div style="text-align: center;">
+             <a href="/cv/Eilbacher CV 25.pdf"
+                target="_blank" 
+                style="font-size: 1.75em; color: #a0a0a0;">
+               CV
+             </a>
+           </div>
+           <br>
+
+           	<div style="text-align: center;">
+             <a href="https://maxeilbacher.bandcamp.com/"
+                target="_blank" 
+                style="font-size: 1.25em; color: #f0f0f0;">
+               A link to listen
+             </a>
+           </div>
 			
 		</p>
 		<br>
